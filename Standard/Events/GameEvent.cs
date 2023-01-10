@@ -15,7 +15,7 @@ namespace CyberneticStudios.SOFramework
 #endif
 
         public System.Action<T> OnGameEventRaised;
-        [SerializeField] DebugInformation debugInformation;
+        [SerializeField] private DebugInformation debugInformation;
 
         public void RaiseEvent(T value)
         {
